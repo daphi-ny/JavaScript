@@ -1,0 +1,14 @@
+var on = document.getElementById('on');
+var off = document.getElementById('off');
+var vag = document.getElementById('vag');
+
+function ligar() {
+    vag.src = './img/ligada.jpeg';
+}
+function desligar() {
+    vag.src = './img/desligada.jpeg';
+}
+
+on.addEventListener('click', ligar);
+off.addEventListener('click', desligar);
+
